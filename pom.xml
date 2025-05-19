@@ -18,14 +18,14 @@
         <dependency>
             <groupId>io.snyk.os-managed</groupId>
             <artifactId>snapshot-child</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
     <repositories>
         <repository>
-            <id>os-managed-testing-local</id>
+            <id>local-snapshots</id>
             <name>OS Managed testing repo</name>
-            <url>https://snykdevtest.jfrog.io/artifactory/os-managed-testing-local/</url>
+            <url>https://68fe732cfb2c.ngrok.app/repository/local-snapshots/</url>
         </repository>
     </repositories>
 </project>
